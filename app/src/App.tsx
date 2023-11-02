@@ -1,5 +1,5 @@
 import { QuizAppEasy,QuizAppHard,QuizAppMedium } from './components/QuizApp'
-import { Outlet, createBrowserRouter, RouterProvider, Route, NavLink, Link } from "react-router-dom";
+import { Outlet, createBrowserRouter, RouterProvider, Link } from "react-router-dom";
 
 
 const Root = () => {
