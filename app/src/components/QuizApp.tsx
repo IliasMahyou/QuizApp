@@ -51,7 +51,6 @@ import { TrueOrFalseQuestions } from "./BooleanQuestions";
   }
   export const QuizAppHard = () => {
     const [questions, setQuestions] = useState<IQuestions[]>([]);
-    const [loading, SetLoading] = useState(true);
     const GetQuestions = async() =>{
   
       let result = await fetch("https://opentdb.com/api.php?amount=10&category=31&difficulty=hard");
